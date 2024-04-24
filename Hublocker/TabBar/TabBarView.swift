@@ -56,7 +56,7 @@ struct TabBarView: View {
                 }
                 .popover(isPresented: $isPopCardVisible, content: {
                     PopCard()
-                        .presentationDetents([.fraction(0.55), .large])
+                        .presentationDetents([.fraction(0.65), .large])
                         
                 })
                 .onAppear(perform: {

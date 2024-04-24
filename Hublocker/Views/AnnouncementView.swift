@@ -21,47 +21,29 @@ struct AnnouncementView: View {
                     //.padding()
    
                     // X button
-                    /*
-                    NavigationLink {
-                        LockerView()
-                            .navigationBarBackButtonHidden(true)
-                    } label: {
-                        HStack(alignment: .top) {
-                            Image(systemName: "xmark")
-                                .resizable()
-                                .scaledToFit()
-                                .foregroundStyle(.black)
-                                .frame(maxHeight: 15, alignment: .topLeading)
-                                .padding()
-                                .background(
-                                    Color.white.opacity(0.7),
-                                    in: Circle()
-                                )
-                            
-                            Spacer()
-                        }
-                        .padding(.horizontal)
-                    }
-                     */
-                    
-                    
                      Button(action: {
                          dismiss()
                      }, label: {
-                         HStack(alignment: .top) {
-                             Image(systemName: "xmark")
-                                 .resizable()
-                                 .scaledToFit()
-                                 .frame(maxHeight: 15, alignment: .topLeading)
-                                 .padding()
-                                 .background(
-                                     Color.white.opacity(0.7),
-                                     in: Circle()
-                                 )
+                         VStack(alignment: .leading) {
+                             HStack(alignment: .top) {
+                                 Image(systemName: "xmark")
+                                     .resizable()
+                                     .scaledToFit()
+                                     .frame(maxHeight: 15, alignment: .topLeading)
+                                     .padding()
+                                     .background(
+                                         Color.white.opacity(0.7),
+                                         in: Circle()
+                                     )
+                                 
+                                 Spacer()
+                             }
                              
-                             Spacer()
+                             
+                        .padding(.leading) //
+                         .padding(.bottom, 50)
                          }
-                         .padding(.horizontal)
+                         .padding(.bottom, 50)
                      })
                      .foregroundStyle(.black)
                      
@@ -134,6 +116,28 @@ struct BenefitsText: View {
 
 
 /*
+ /*
+ NavigationLink {
+     LockerView()
+         .navigationBarBackButtonHidden(true)
+ } label: {
+     HStack(alignment: .top) {
+         Image(systemName: "xmark")
+             .resizable()
+             .scaledToFit()
+             .foregroundStyle(.black)
+             .frame(maxHeight: 15, alignment: .topLeading)
+             .padding()
+             .background(
+                 Color.white.opacity(0.7),
+                 in: Circle()
+             )
+         
+         Spacer()
+     }
+     .padding(.horizontal)
+ }
+  */
  
      Text("\(Text("Secure and Convenient:").bold()) \(Text("Our lockers prioritize the safety of your parcels.").font(.body))")
          .font(.title3)
@@ -148,5 +152,3 @@ struct BenefitsText: View {
  
  Text("The market days are \(Text("Wednesday").bold()) and \(Text("Sunday").bold()).")
  */
-
-
