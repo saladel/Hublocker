@@ -3,17 +3,17 @@
 - [Description](#Description)
 - [Design](#Design)
 - [Acceptace Creteria](#Acceptace-Creteria)
-- [Video](#Video)
+- [Demo](#Demo)
 - [Architecture and Tools Used](#Architecture-and-Tools-Used)
 
 
 ## Description
-An assessessment built using Swift and SwiftUI that displays various screens in the Locker Service
+An assessment built using Swift and SwiftUI that displays various screens in the Locker Service
 
 ## Design
 ![Hublocker](https://github.com/saladel/Hublocker/assets/53665585/2c3e7d89-cd0d-40bf-ae48-6947f79d2cf2)
 
-## Acceptace Creteria
+## Acceptace Criteria
 
 #### User story/requirements:
 As a resident living in Town Place Apartment Lekki Lagos, i would like to see the aggregate report of 
@@ -22,8 +22,8 @@ my delivered and pending packages on the locker screen also I would like to perf
 Please note: This locker service dashboard  is accessible when a user click on the locker tab.
  
 #### Acceptance Criteria 1: Graph Representation – see attached screenshot named “1_Graph Representation_Locker Service”
-- Ensure the users have their data-package (delivered packages and pending packages) represented in a bar chart on the graph as shown on the UX. 
-- Ensure a color icon is given to differentiate the package type, i.e., green for delivered packages and red for pending packages as shown on the UX.
+- Ensure the users have their data package (delivered packages and pending packages) represented in a bar chart on the graph as shown on the UX. 
+- Ensure a colour icon is given to differentiate the package type, i.e., green for delivered packages and red for pending packages as shown on the UX.
   
 #### Acceptance Criteria 2: Button (Delivered Packages & Pending Packages) see attached named “1_Graph Representation_Locker Service”
 - Ensure the given buttons (delivered packages and pending packages) lead to their respective screens as shown on the UX.
@@ -45,10 +45,11 @@ Please note: This locker service dashboard  is accessible when a user click on t
 - User should have the ability to filter our reports based on selected period Q1/Q2/Q3 year 2024/2023 / (Delivered Packages & Pending Packages) as shown on the UX.
 
 #### Acceptance Criteria 6: Display filter results based on filter selection  see attached 5
-- User should see results of filter results after clicking on save button on the filter selection screen as shown on the UX.
+- User should see results of filter results after clicking on the save button on the filter selection screen as shown on the UX.
 
-## Video
-[Link to video](https://drive.google.com/file/d/1pSFd2LaR5FZfBV6MA8z9_7pDty9ZPGM8/view)
+## Demo
+https://github.com/saladel/Hublocker/assets/53665585/2d09c65e-d029-4ee7-8f08-b7136331f760
+
 
 ## Architecture and Tools Used
 - The application is built using Swift and SwiftUI.
