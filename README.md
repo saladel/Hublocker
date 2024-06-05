@@ -2,7 +2,7 @@
 
 - [Description](#Description)
 - [Design](#Design)
-- [Acceptace Creteria](#Acceptace-Creteria)
+- [Acceptance Criteria](#Acceptance-Criteria)
 - [Demo](#Demo)
 - [Architecture and Tools Used](#Architecture-and-Tools-Used)
 
@@ -13,13 +13,13 @@ An assessment built using Swift and SwiftUI that displays various screens in the
 ## Design
 ![Hublocker](https://github.com/saladel/Hublocker/assets/53665585/2c3e7d89-cd0d-40bf-ae48-6947f79d2cf2)
 
-## Acceptace Criteria
+## Acceptance Criteria
 
 #### User story/requirements:
-As a resident living in Town Place Apartment Lekki Lagos, i would like to see the aggregate report of 
+As a resident living in Town Place Apartment Lekki Lagos, I would like to see the aggregate report of 
 my delivered and pending packages on the locker screen also I would like to perform other functions on the screen. 
  
-Please note: This locker service dashboard  is accessible when a user click on the locker tab.
+Please note: This locker service dashboard  is accessible when a user clicks on the locker tab.
  
 #### Acceptance Criteria 1: Graph Representation – see attached screenshot named “1_Graph Representation_Locker Service”
 - Ensure the users have their data package (delivered packages and pending packages) represented in a bar chart on the graph as shown on the UX. 
